@@ -120,6 +120,11 @@
         <div id="advanced" style="display:none">
 
           <div class="field clearfix">
+            <p class="explanation">If you disable this, users will not be able to find your campaigns from search engines such as google.</p>
+            <label>Allow search engines to index your website?</label>
+            <%= f.check_box :indexable %>
+          </div>
+          <div class="field clearfix">
             <p class="explanation">Add your own CSS styles to fully customize the look and feel of your site.</p>
             <label>Custom CSS</label>
             <%= f.text_area :custom_css, rows: 3, style: "width:400px; height: 200px" %>
