@@ -7,6 +7,7 @@ class ApplicationController < ActionController::Base
   before_filter :load_site
   before_filter :set_default_mailer_host
   after_filter :store_location
+  after_filter :clear_warden_cookie
 
   def after_sign_in_path_for(resource)
     session[:previous_url] || root_path
@@ -80,6 +81,10 @@ private
   def store_location
     # store last url as long as it isn't an /account path
     session[:previous_url] = request.fullpath unless request.fullpath =~ /\/account/
+  end
+
+  def clear_warden_cookie
+    session.delete("warden.user.user.key")
   end
 
 end

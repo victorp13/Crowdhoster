@@ -34,6 +34,7 @@ Crowdhoster::Application.configure do
   # Force Devise to use SSL always
   config.to_prepare { Devise::SessionsController.force_ssl }
   config.to_prepare { Devise::RegistrationsController.force_ssl }
+  config.to_prepare { Devise::PasswordsController.force_ssl }
 
   # See everything in the log (default is :info)
   # config.log_level = :debug

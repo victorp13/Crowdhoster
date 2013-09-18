@@ -14,6 +14,7 @@ gem 'unicorn'
 
 # Auth
 gem 'devise'
+gem 'devise-login-cookie'
 gem 'rolify'
 
 # User assets

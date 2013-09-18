@@ -51,6 +51,9 @@ module Crowdhoster
     #Forcing app to not access the DB or models when precompiling
     config.assets.initialize_on_precompile = false
 
+    # devise_login_cookie options
+    config.session_options = {httponly: true}
+
     #Paperclip default options
     config.paperclip_defaults = {
       storage: :s3,
