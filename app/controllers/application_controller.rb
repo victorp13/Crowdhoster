@@ -55,16 +55,32 @@ private
 
     logger.info "Loading site... #{@site.to_log_info}" if @site
 
-    # Trying to view the checkout page on a custom domain
-    if @site && @is_custom_domain && request.fullpath =~ /\/checkout\//
-      logger.info "Redirecting to secure payment page..."
-      return redirect_to root_url(:subdomain => @site.subdomain, :host => @central_domain) + request.fullpath.sub('/', '')
+    checkout_page = !(request.fullpath =~ /\/checkout/).nil?
+    admin_page = !(request.fullpath =~ /\/admin/).nil?
+    account_page = !(request.fullpath =~ /\/account/).nil?
+
+    if @site && @is_custom_domain
+
+      # Trying to view the checkout page on a custom domain
+      if checkout_page
+        logger.info "Redirecting to secure payment page..."
+        return redirect_to root_url(:subdomain => @site.subdomain, :host => @central_domain) + request.fullpath.sub('/', '')
+
+      # Trying to view the admin page on a custom domain
+      elsif admin_page
+        logger.info "Redirecting to secure admin page..."
+        return redirect_to root_url(:subdomain => @site.subdomain, :host => @central_domain) + request.fullpath.sub('/', '')
+
+      elsif account_page
+        logger.info "Redirecting to secure account page..."
+        return redirect_to root_url(:subdomain => @site.subdomain, :host => @central_domain) + request.fullpath.sub('/', '')
+      end
     end
 
     # Accessed the site through a subdomain but a custom domain exists
-    if is_subdomain_of_custom
+    if is_subdomain_of_custom && !(checkout_page || admin_page || account_page)
       logger.info "Redirecting to custom domain..."
-      return redirect_to root_url(:host => @site.custom_domain) + request.fullpath.sub('/', ''), :status => 301 unless (request.fullpath =~ /\/admin/ || request.fullpath =~ /\/checkout\//)
+      return redirect_to root_url(:host => @site.custom_domain) + request.fullpath.sub('/', ''), :status => 301
     end
 
   end
