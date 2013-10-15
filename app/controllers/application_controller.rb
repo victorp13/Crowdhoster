@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
+  before_filter :authenticate_user!
   before_filter :load_settings, :set_default_mailer_host
   after_filter :store_location
 
