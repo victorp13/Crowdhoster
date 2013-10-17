@@ -10,6 +10,9 @@
   <li class="<%= 'active' if active == 'campaigns' %>">
     <%= link_to "Campaigns", admin_campaigns_path, :class => 'show_loader', :'data-loader' => "admin_header" %>
   </li>
+  <li class="<%= 'active' if active == 'users' %>">
+    <%= link_to "Users", admin_users_path, :class => 'show_loader', :'data-loader' => "admin_header" %>
+  </li>
   <li class="<%= 'active' if active == 'payments' %>">
     <%= link_to "Payment Settings", admin_processor_setup_path, :class => 'show_loader', :'data-loader' => "admin_header" %>
   </li>
