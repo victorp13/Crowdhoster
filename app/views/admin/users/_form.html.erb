@@ -1,0 +1,22 @@
+<%= form_for([:admin, @user], multipart: true, html: { class: "user_form", id: "admin_user_form" }) do |f| %>
+
+  <fieldset>
+  <legend>User Information</legend>
+
+      <div><%= f.label :fullname, "Full Name" %>
+      <%= f.text_field :fullname, :autofocus => true %></div>
+
+      <div><%= f.label :email %>
+      <%= f.email_field :email %></div>
+
+      <div><%= f.label :password %>
+      <%= f.password_field :password %></div>
+	  
+	  <div><%= f.label :admin, "Site Administrator?" %>
+	  <%= f.check_box :admin %></div>
+	  <br />
+  </fieldset>
+  
+  <%= f.submit "Save", :'class' => "btn btn-primary show_loader", :'data-loader' => "user_form" %>
+  <span class="loader" data-loader="user_form" style="display:none"></span>
+<% end %>

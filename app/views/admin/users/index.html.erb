@@ -1,0 +1,31 @@
+<div id="admin">
+  <div class="container content_box clearfix">
+
+  <%= render 'admin/header', active: 'users' %>
+
+    <div id="admin_users">
+
+      <table class="table table-striped">
+        <tr>
+          <th>Full Name</th>
+          <th>Email</th>
+          <th>Created At</th>
+          <th>Admin</th>
+        </tr>
+
+      <% @users.each do |user| %>
+        <tr>
+          <td><%= user.fullname %></td>
+		  <td><%= user.email %></td>
+          <td><%= Date.parse(user.created_at.to_s).strftime("%m/%d/%Y") %></td>
+          <td><%= user.admin ? raw('<i class="icon-ok"></i>') : '' %></td>
+        </tr>
+      <% end %>
+      </table>
+
+      <br />
+
+      <%= link_to 'New User', new_admin_user_path %>
+    </div>
+  </div>
+</div>
