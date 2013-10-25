@@ -8,6 +8,7 @@
       <label>Campaign Name</label>
       <%= f.text_field :name %>
     </div>
+    <!--
     <div class="field clearfix">
       <p class="explanation">If you set this to be the default campaign, the homepage will redirect to the campaign.</p>
       <label>Default Campaign?</label>
@@ -17,6 +18,7 @@
         <%= f.check_box :is_default, {checked: false} %>
       <% end %>
     </div>
+    -->
     <div class="field clearfix">
       <p class="explanation">You can choose to set your goal based on the dollar amount you raise, or by the number of orders your contributors make.</p>
       <label>Goal</label>
@@ -40,7 +42,7 @@
       <%= f.text_field :expiration_date, placeholder: "Click to select date", value: (@campaign.expiration_date.blank? ? '' : @campaign.expiration_date.strftime('%m/%d/%Y %I:%M %P %Z')) %>
     </div>
   </fieldset>
-
+  <!--
   <fieldset>
   <legend>Payment Details</legend>
 
@@ -65,7 +67,7 @@
       </div>
 
     </div>
-
+ 
     <div class="field clearfix">
       <p class="explanation">Requires the user to include shipping address when checking out.</p>
       <label>Collect Shipping Address?</label>
@@ -87,9 +89,9 @@
       <label>Pass Credit Card Processing Fee to Contributors?</label>
       <%= f.check_box :apply_processing_fee %>
     </div>
-
   </fieldset>
-
+   -->
+ 
   <fieldset>
   <legend>Rewards (optional)</legend>
 
@@ -259,7 +261,7 @@
       </div>
     </div>
   </fieldset>
-
+  <!--
   <fieldset>
   <legend>Checkout Page Content</legend>
 
@@ -311,7 +313,7 @@
     </div>
 
   </fieldset>
-
+  -->
   <fieldset>
   <legend>Publish</legend>
 
@@ -323,6 +325,7 @@
 
   </fieldset>
 
+  <!--
 
   <fieldset>
   <legend>Payment Mode</legend>
@@ -343,7 +346,8 @@
     </div>
 
   </fieldset>
-
+  -->
+  <!--
   <% if @campaign.persisted? %>
   <fieldset>
     <legend><a class="advanced_toggle" href="#">Advanced Settings (click to expand)</a></legend>
@@ -357,6 +361,7 @@
       </div>
      </div>
   </fieldset>
+  -->
   <% end %>
 
 
