@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131102102431) do
+ActiveRecord::Schema.define(:version => 20131102124631) do
 
   create_table "campaigns", :force => true do |t|
     t.string   "name"
@@ -173,6 +173,14 @@ ActiveRecord::Schema.define(:version => 20131102102431) do
     t.string   "ct_prod_api_secret"
     t.integer  "default_campaign_id"
     t.string   "budget_per_member"
+  end
+
+  create_table "teamfunds", :force => true do |t|
+    t.string   "campaign_id"
+    t.string   "user_email"
+    t.integer  "amount"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "users", :force => true do |t|
