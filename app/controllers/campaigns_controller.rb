@@ -23,6 +23,11 @@ class CampaignsController < ApplicationController
   end
 
   def checkout_payment
+    @fund = Teamfund.new campaign_id: 'test',
+                         user_email: 'test@test.com',
+                         amount: 100
+    @fund.save
+    
     @reward = false
     if @campaign.payment_type == "fixed"
       if params.has_key?(:quantity)

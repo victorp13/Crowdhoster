@@ -4,6 +4,7 @@ class Campaign < ActiveRecord::Base
   has_many :faqs, dependent: :destroy, :order => 'sort_order'
   has_many :payments
   has_many :rewards
+  has_many :teamfunds
 
   attr_accessible :name, :goal_type, :goal_dollars, :goal_orders,  :expiration_date, :ct_campaign_id, :media_type,
                   :main_image, :main_image_delete, :video_embed_id, :video_placeholder, :video_placeholder_delete,
