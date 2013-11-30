@@ -1,0 +1,201 @@
+remote: [1G-----> Building proto ...[K
+remote: [1G       Ruby app detected[K
+remote: [1G-----> Compiling Ruby/Rails[K
+remote: [1G-----> Using Ruby version: ruby-1.9.3[K
+remote: [1G-----> Installing dependencies using Bundler version 1.3.2[K
+remote: [1G       Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin --deployment[K
+remote: [1G       Using rake (10.1.0)[K
+remote: [1G       Using i18n (0.6.1)[K
+remote: [1G       Using multi_json (1.7.6)[K
+remote: [1G       Using activesupport (3.2.13)[K
+remote: [1G       Using builder (3.0.4)[K
+remote: [1G       Using activemodel (3.2.13)[K
+remote: [1G       Using erubis (2.7.0)[K
+remote: [1G       Using journey (1.0.4)[K
+remote: [1G       Using rack (1.4.5)[K
+remote: [1G       Using rack-cache (1.2)[K
+remote: [1G       Using rack-test (0.6.2)[K
+remote: [1G       Using hike (1.2.3)[K
+remote: [1G       Using tilt (1.4.1)[K
+remote: [1G       Using sprockets (2.2.2)[K
+remote: [1G       Using actionpack (3.2.13)[K
+remote: [1G       Using mime-types (1.23)[K
+remote: [1G       Using polyglot (0.3.3)[K
+remote: [1G       Using treetop (1.4.14)[K
+remote: [1G       Using mail (2.5.4)[K
+remote: [1G       Using actionmailer (3.2.13)[K
+remote: [1G       Using active_model_serializers (0.8.1)[K
+remote: [1G       Using arel (3.0.2)[K
+remote: [1G       Using tzinfo (0.3.37)[K
+remote: [1G       Using activerecord (3.2.13)[K
+remote: [1G       Using activeresource (3.2.13)[K
+remote: [1G       Using addressable (2.3.5)[K
+remote: [1G       Using excon (0.22.1)[K
+remote: [1G       Using formatador (0.2.4)[K
+remote: [1G       Using json (1.8.0)[K
+remote: [1G       Using net-ssh (2.6.7)[K
+remote: [1G       Using net-scp (1.1.1)[K
+remote: [1G       Using nokogiri (1.5.9)[K
+remote: [1G       Using ruby-hmac (0.4.0)[K
+remote: [1G       Using fog (1.11.1)[K
+remote: [1G       Using asset_sync (0.5.4)[K
+remote: [1G       Using uuidtools (2.1.4)[K
+remote: [1G       Using aws-sdk (1.11.0)[K
+remote: [1G       Using bcrypt-ruby (3.0.1)[K
+remote: [1G       Using bootstrap-sass (2.1.0.0)[K
+remote: [1G       Using orm_adapter (0.4.0)[K
+remote: [1G       Using ckeditor (4.0.4)[K
+remote: [1G       Using climate_control (0.0.3)[K
+remote: [1G       Using cocaine (0.5.1)[K
+remote: [1G       Using coffee-script-source (1.6.2)[K
+remote: [1G       Using execjs (1.4.0)[K
+remote: [1G       Using coffee-script (2.2.0)[K
+remote: [1G       Using rack-ssl (1.3.3)[K
+remote: [1G       Using rdoc (3.12.2)[K
+remote: [1G       Using thor (0.18.1)[K
+remote: [1G       Using railties (3.2.13)[K
+remote: [1G       Using coffee-rails (3.2.2)[K
+remote: [1G       Using multipart-post (1.2.0)[K
+remote: [1G       Using faraday (0.8.7)[K
+remote: [1G       Using faraday_middleware (0.9.0)[K
+remote: [1G       Using crowdtilt (0.0.1) from git://github.com/msaint/crowdtilt.git (at master)[K
+remote: [1G       Using warden (1.2.1)[K
+remote: [1G       Using devise (2.2.4)[K
+remote: [1G       Using dotenv (0.7.0)[K
+remote: [1G       Using launchy (2.3.0)[K
+remote: [1G       Using email_spec (1.4.0)[K
+remote: [1G       Using foreman (0.63.0)[K
+remote: [1G       Using friendly_id (4.0.9)[K
+remote: [1G       Using iso_country_codes (0.4.1)[K
+remote: [1G       Using jquery-rails (3.0.0)[K
+remote: [1G       Using jquery-ui-rails (4.0.3)[K
+remote: [1G       Using kgio (2.8.0)[K
+remote: [1G       Using newrelic_rpm (3.6.3.111)[K
+remote: [1G       Using paperclip (3.4.2)[K
+remote: [1G       Using pg (0.15.1)[K
+remote: [1G       Using bundler (1.3.2)[K
+remote: [1G       Using rails (3.2.13)[K
+remote: [1G       Using raindrops (0.11.0)[K
+remote: [1G       Using sass (3.2.9)[K
+remote: [1G       Using sass-rails (3.2.6)[K
+remote: [1G       Using uglifier (2.1.1)[K
+remote: [1G       Using unicorn (4.6.2)[K
+remote: [1G       Your bundle is complete! It was installed into ./vendor/bundle[K
+remote: [1G       Bundle completed (0.58s)[K
+remote: [1G       Cleaning up the bundler cache.[K
+remote: [1G-----> Writing config/database.yml to read from DATABASE_URL[K
+remote: [1G-----> Preparing app for Rails asset pipeline[K
+remote: [1G       Running: rake assets:precompile[K
+remote: [1G       DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /build/app/Rakefile:7)[K
+remote: [1G       DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /build/app/Rakefile:7)[K
+remote: [1G       rake aborted![K
+remote: [1G       can't convert nil into String[K
+remote: [1G       (in /build/app/app/assets/javascripts/ckeditorbase.js.erb)[K
+remote: [1G       /build/app/app/assets/javascripts/ckeditorbase.js.erb:4:in `block in singletonclass'[K
+remote: [1G       /build/app/app/assets/javascripts/ckeditorbase.js.erb:65531:in `instance_eval'[K
+remote: [1G       /build/app/app/assets/javascripts/ckeditorbase.js.erb:65531:in `singletonclass'[K
+remote: [1G       /build/app/app/assets/javascripts/ckeditorbase.js.erb:65529:in `__tilt_19684540'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/context.rb:193:in `block in evaluate'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/context.rb:190:in `each'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/context.rb:190:in `evaluate'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/processed_asset.rb:12:in `initialize'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:249:in `new'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:249:in `block in build_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:270:in `circular_call_protection'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:248:in `build_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/index.rb:93:in `block in build_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/caching.rb:19:in `cache_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/index.rb:92:in `build_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:169:in `find_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/index.rb:60:in `find_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/processed_asset.rb:111:in `block in resolve_dependencies'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/processed_asset.rb:105:in `each'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/processed_asset.rb:105:in `resolve_dependencies'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/processed_asset.rb:97:in `build_required_assets'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/processed_asset.rb:16:in `initialize'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:249:in `new'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:249:in `block in build_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:270:in `circular_call_protection'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:248:in `build_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/index.rb:93:in `block in build_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/caching.rb:19:in `cache_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/index.rb:92:in `build_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:169:in `find_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/index.rb:60:in `find_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/bundled_asset.rb:16:in `initialize'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:252:in `new'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:252:in `build_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/index.rb:93:in `block in build_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/caching.rb:19:in `cache_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/index.rb:92:in `build_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:169:in `find_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/index.rb:60:in `find_asset'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.13/lib/sprockets/static_compiler.rb:19:in `block in compile'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:219:in `block in each_logical_path'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:206:in `block (2 levels) in each_file'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:196:in `each'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:196:in `each_entry'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:204:in `block in each_file'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:203:in `each'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:203:in `each_file'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/sprockets-2.2.2/lib/sprockets/base.rb:217:in `each_logical_path'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.13/lib/sprockets/static_compiler.rb:18:in `compile'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.13/lib/sprockets/assets.rake:56:in `internal_precompile'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.13/lib/sprockets/assets.rake:70:in `block (3 levels) in <top (required)>'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.13/lib/sprockets/assets.rake:60:in `block (3 levels) in <top (required)>'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.13/lib/sprockets/assets.rake:23:in `invoke_or_reboot_rake_task'[K
+remote: [1G       /build/app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.13/lib/sprockets/assets.rake:29:in `block (2 levels) in <top (required)>'[K
+remote: [1G       Tasks: TOP => assets:precompile:primary[K
+remote: [1G       (See full trace by running task with --trace)[K
+remote: [1G       AssetSync: using /build/app/config/initializers/asset_sync.rb[K
+remote: [1G       Compiled html5shiv-printshiv.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery_ujs.js  (0ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.core.js  (0ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.widget.js  (0ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.accordion.js  (11ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.position.js  (0ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.menu.js  (8ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.autocomplete.js  (16ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.button.js  (2ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.datepicker.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.mouse.js  (2ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.draggable.js  (8ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.resizable.js  (3ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.dialog.js  (26ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.droppable.js  (3ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect.js  (0ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect-blind.js  (5ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect-bounce.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect-clip.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect-drop.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect-explode.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect-fade.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect-fold.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect-highlight.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect-pulsate.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect-scale.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect-shake.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect-slide.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.effect-transfer.js  (1ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.progressbar.js  (2ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.selectable.js  (3ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.slider.js  (3ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.sortable.js  (3ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.spinner.js  (2ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.tabs.js  (2ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.tooltip.js  (2ms)  (pid 225)[K
+remote: [1G       Compiled jquery.ui.all.js  (356ms)  (pid 225)[K
+remote: [1G       Compiled jquery.textchange.js  (0ms)  (pid 225)[K
+remote: [1G       Compiled jquery.timepicker.js  (0ms)  (pid 225)[K
+remote: [1G       Compiled jquery.validate.min.js  (0ms)  (pid 225)[K
+remote: [1G       Compiled additional-methods.min.js  (0ms)  (pid 225)[K
+remote: [1G ![K
+remote: [1G !     Precompiling assets failed.[K
+remote: [1G ![K
+To dokku@teamfunding.net:proto
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'dokku@teamfunding.net:proto'
