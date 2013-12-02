@@ -14,6 +14,7 @@
 //= require html5shiv-printshiv
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui
 //= require jquery.textchange
 //= require jquery.timepicker
 //= require jquery.validate.min
