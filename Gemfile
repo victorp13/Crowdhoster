@@ -49,4 +49,8 @@ group :test do
   gem "capybara"
 end
 
+# jQuery & jQuery UI
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
+
 gem 'crowdtilt', github: 'msaint/crowdtilt'
